@@ -36,6 +36,7 @@ public class CubeProjectile : MonoBehaviour
         {
             if(rb.velocity.magnitude == 0)
             {
+                GameManager.Instance.currentCubeProjectile = null;
                 Destroy(this);
             }
         }
@@ -57,6 +58,7 @@ public class CubeProjectile : MonoBehaviour
        
         if (collision.gameObject.GetComponent<CubeType>() != null && isThrow)
         {
+            GameManager.Instance.currentCubeProjectile = null;
             Destroy(this);
         }
             

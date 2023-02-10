@@ -8,8 +8,11 @@ public class GameManager : MonoBehaviour
     public List<Material> CubeColors;
 
     [SerializeField] private GameObject cubePrefab;
-    [SerializeField] public CubeProjectile cubeProjectile;
+    [SerializeField] public GameObject currentCubeProjectile;
+    [SerializeField] public GameObject nextCubeProjectile;
     [SerializeField] private Transform spawnPosition;
+    [SerializeField] private Transform boardSpawnPosition;
+    
 
 
     private void Awake()
@@ -23,22 +26,31 @@ public class GameManager : MonoBehaviour
     }
     void Update()
     {
-        if(cubeProjectile == null)
+        if (nextCubeProjectile == null)
         {
-            SpawnCubeProjectile();
+            SpawnNextCubeProjectile();
         }
-       
-        
-       
+        if (currentCubeProjectile == null)
+        {
+            nextCubeProjectile.transform.position = boardSpawnPosition.position;
+            currentCubeProjectile = nextCubeProjectile;
+            currentCubeProjectile.GetComponent<CubeProjectile>().enabled = true;
+            nextCubeProjectile = null;
+        }
     }
-
-    void SpawnCubeProjectile()
+   
+    void SpawnNextCubeProjectile()
     {
-        if(cubeProjectile == null)
+        if (nextCubeProjectile == null)
         {
             GameObject cube = Instantiate(cubePrefab, spawnPosition.position, Quaternion.identity);
-            cubeProjectile = cube.GetComponent<CubeProjectile>();
+            nextCubeProjectile = cube;
         }
-       
+    }
+
+
+    public void GameOver()
+    {
+        Debug.Log("Game Over");
     }
 }

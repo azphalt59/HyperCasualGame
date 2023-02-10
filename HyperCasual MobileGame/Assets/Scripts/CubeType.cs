@@ -94,7 +94,9 @@ public class CubeType : MonoBehaviour
     {
         levelIndex++;
         cubeValue = Mathf.Pow(2, levelIndex);
+        ScoreManager.Instance.AddScore((int)cubeValue);
         cubeRenderer.material = gameManager.CubeColors[levelIndex];
+        GetComponent<Cube>().Bump();
     }
     public void RandomCubeType()
     {
