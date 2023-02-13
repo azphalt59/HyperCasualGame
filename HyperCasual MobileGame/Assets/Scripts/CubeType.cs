@@ -5,6 +5,7 @@ using UnityEngine;
 public class CubeType : MonoBehaviour
 {
     [SerializeField] private float cubeValue = 0;
+   
     [SerializeField] private MeshRenderer cubeRenderer;
     GameManager gameManager;
     int levelIndex = 0;
@@ -12,7 +13,8 @@ public class CubeType : MonoBehaviour
     {
         One, Two, Four, Eight, Sixteen, 
         ThirtyTwo, SixtyFour, OneHundredTwentyEight,
-        TwoHundredFiftySix, FiveHundredTwelve, OneThousandTwentyFour
+        TwoHundredFiftySix, FiveHundredTwelve, OneThousandTwentyFour,
+        Rainbow
     }
     public TypeOfCube typeOfCube;
 
@@ -20,69 +22,85 @@ public class CubeType : MonoBehaviour
     {
         gameManager = GameManager.Instance;
         RandomCubeType();
+        int rand = Random.Range(0, 101);
+        if (rand < gameManager.GetRainbowFrequency()) typeOfCube = TypeOfCube.Rainbow;
         switch (typeOfCube)
         {
             case TypeOfCube.One:
-                cubeRenderer.material = gameManager.CubeColors[0];
+                cubeRenderer.material = gameManager.ShapeColor[0];
                 cubeValue = 1;
                 levelIndex = 0;
                 break;
             case TypeOfCube.Two:
-                cubeRenderer.material = gameManager.CubeColors[1];
+                cubeRenderer.material = gameManager.ShapeColor[1];
                 cubeValue = 2;
                 levelIndex = 1;
                 break;
             case TypeOfCube.Four:
-                cubeRenderer.material = gameManager.CubeColors[2];
+                cubeRenderer.material = gameManager.ShapeColor[2];
                 cubeValue = 4;
                 levelIndex = 2;
                 break;
             case TypeOfCube.Eight:
-                cubeRenderer.material = gameManager.CubeColors[3];
+                cubeRenderer.material = gameManager.ShapeColor[3];
                 cubeValue = 8;
                 levelIndex = 3;
                 break;
             case TypeOfCube.Sixteen:
-                cubeRenderer.material = gameManager.CubeColors[4];
+                cubeRenderer.material = gameManager.ShapeColor[4];
                 cubeValue = 16;
                 levelIndex = 4;
                 break;
             case TypeOfCube.ThirtyTwo:
-                cubeRenderer.material = gameManager.CubeColors[5];
+                cubeRenderer.material = gameManager.ShapeColor[5];
                 cubeValue = 32;
                 levelIndex = 5;
                 break;
             case TypeOfCube.SixtyFour:
-                cubeRenderer.material = gameManager.CubeColors[6];
+                cubeRenderer.material = gameManager.ShapeColor[6];
                 cubeValue = 64;
                 levelIndex = 6;
                 break;
             case TypeOfCube.OneHundredTwentyEight:
-                cubeRenderer.material = gameManager.CubeColors[7];
+                cubeRenderer.material = gameManager.ShapeColor[7];
                 cubeValue = 128;
                 levelIndex = 7;
                 break;
             case TypeOfCube.TwoHundredFiftySix:
-                cubeRenderer.material = gameManager.CubeColors[8];
+                cubeRenderer.material = gameManager.ShapeColor[8];
                 cubeValue = 256;
                 levelIndex = 8;
                 break;
             case TypeOfCube.FiveHundredTwelve:
-                cubeRenderer.material = gameManager.CubeColors[9];
+                cubeRenderer.material = gameManager.ShapeColor[9];
                 cubeValue = 512;
                 levelIndex = 9;
                 break;
             case TypeOfCube.OneThousandTwentyFour:
-                cubeRenderer.material = gameManager.CubeColors[10];
+                cubeRenderer.material = gameManager.ShapeColor[10];
                 cubeValue = 1024;
                 levelIndex = 10;
+                break;
+            case TypeOfCube.Rainbow:
+                gameObject.name += " Rainbow";
+                cubeRenderer.material = gameManager.ShapeColor[gameManager.ShapeColor.Count-1];
+                cubeValue = 0;
+                //levelIndex = 15;
                 break;
         }
     }
     private void Update()
     {
-        
-        
+        switch(typeOfCube)
+        {
+            case TypeOfCube.Rainbow:
+                RainbowMaterial();
+                break;
+        }
+    }
+    public void RainbowMaterial()
+    {
+      
     }
 
     public float GetCubeValue()
@@ -95,7 +113,7 @@ public class CubeType : MonoBehaviour
         levelIndex++;
         cubeValue = Mathf.Pow(2, levelIndex);
         ScoreManager.Instance.AddScore((int)cubeValue);
-        cubeRenderer.material = gameManager.CubeColors[levelIndex];
+        cubeRenderer.material = gameManager.ShapeColor[levelIndex];
         GetComponent<Cube>().Bump();
     }
     public void RandomCubeType()

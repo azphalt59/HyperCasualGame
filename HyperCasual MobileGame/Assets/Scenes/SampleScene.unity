@@ -1686,8 +1686,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 546e0c4a1f4be2b418a9c8610e69f861, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CubeColors:
-  - {fileID: 2100000, guid: f87f513d5a9c0ac40895ec92899f40a8, type: 2}
+  ShapeColor:
   - {fileID: 2100000, guid: ddb201127e1460b4c81c847cf3087e0f, type: 2}
   - {fileID: 2100000, guid: 8660254c8ce4a5940ae729eec7b7bbf2, type: 2}
   - {fileID: 2100000, guid: 5b60396c69fe6e84b995a2973ab4db47, type: 2}
@@ -1698,9 +1697,15 @@ MonoBehaviour:
   - {fileID: 2100000, guid: b4e662d51f26bf6458863ce05ca485bb, type: 2}
   - {fileID: 2100000, guid: 7c076d157e818b54180cb88d0390a10f, type: 2}
   - {fileID: 2100000, guid: 3153314f70e486d49aa880997388ef4f, type: 2}
-  cubePrefab: {fileID: 6721540861602393578, guid: c9d722dc785b6b14287324e7c73aa374, type: 3}
-  currentCubeProjectile: {fileID: 0}
-  nextCubeProjectile: {fileID: 0}
+  - {fileID: 2100000, guid: f87f513d5a9c0ac40895ec92899f40a8, type: 2}
+  - {fileID: 2100000, guid: c6906311916357540ab2987122895731, type: 2}
+  rainbowFrequency: 80
+  shapesPrefab:
+  - {fileID: 2309248774042993778, guid: ddacf71e846bc5841b0c836836b28af1, type: 3}
+  - {fileID: 6721540861602393578, guid: c9d722dc785b6b14287324e7c73aa374, type: 3}
+  - {fileID: 367766989454824654, guid: b10024a52e1bc184dafdbe3a6f8c86d5, type: 3}
+  currentShape: {fileID: 0}
+  nextShape: {fileID: 0}
   spawnPosition: {fileID: 121380491}
   boardSpawnPosition: {fileID: 977718303}
 --- !u!114 &2036604268

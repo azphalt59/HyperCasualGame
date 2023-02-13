@@ -7,16 +7,7 @@ public class GameOver : MonoBehaviour
     // Start is called before the first frame update
     public float lineSize;
     
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;

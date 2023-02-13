@@ -11,6 +11,9 @@ public class Cube : MonoBehaviour
     bool hasBump = false;
     bool canBump = false;
     private Vector3 eatenCube;
+
+    public enum ShapeType { Cube, Triangle, Prism};
+    public ShapeType shapeType;
     // Start is called before the first frame update
     void Start()
     {
@@ -48,8 +51,9 @@ public class Cube : MonoBehaviour
     {
         if(other.gameObject.GetComponent<CubeType>() != null)
         {
-            if(other.gameObject.GetComponent<CubeType>().GetCubeValue() == gameObject.GetComponent<CubeType>().GetCubeValue())
+            if (other.gameObject.GetComponent<CubeType>().GetCubeValue() == gameObject.GetComponent<CubeType>().GetCubeValue() || gameObject.GetComponent<CubeType>().typeOfCube == CubeType.TypeOfCube.Rainbow)
             {
+                if (other.gameObject.GetComponent<CubeType>().typeOfCube == CubeType.TypeOfCube.Rainbow) return;
                 other.gameObject.GetComponent<CubeType>().CubeLevelUp();
                 other.gameObject.GetComponent<Cube>().EatCube(other.transform.position);
                 Destroy(this.gameObject);

@@ -5,11 +5,12 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
-    public List<Material> CubeColors;
+    public List<Material> ShapeColor;
 
-    [SerializeField] private GameObject cubePrefab;
-    [SerializeField] public GameObject currentCubeProjectile;
-    [SerializeField] public GameObject nextCubeProjectile;
+    [SerializeField] private float rainbowFrequency = 0;
+    [SerializeField] private List<GameObject> shapesPrefab;
+    [SerializeField] public GameObject currentShape;
+    [SerializeField] public GameObject nextShape;
     [SerializeField] private Transform spawnPosition;
     [SerializeField] private Transform boardSpawnPosition;
     
@@ -26,25 +27,41 @@ public class GameManager : MonoBehaviour
     }
     void Update()
     {
-        if (nextCubeProjectile == null)
+        if (nextShape == null)
         {
             SpawnNextCubeProjectile();
         }
-        if (currentCubeProjectile == null)
+        if (currentShape == null)
         {
-            nextCubeProjectile.transform.position = boardSpawnPosition.position;
-            currentCubeProjectile = nextCubeProjectile;
-            currentCubeProjectile.GetComponent<CubeProjectile>().enabled = true;
-            nextCubeProjectile = null;
+            Debug.Log(" Move shape ");
+            nextShape.transform.position = boardSpawnPosition.position;
+            if(nextShape.GetComponent<Cube>() != null)
+            {
+                if (nextShape.GetComponent<Cube>().shapeType == Cube.ShapeType.Prism) nextShape.transform.position -= new Vector3(0, 0, nextShape.transform.localScale.z * 0.75f);
+            }
+         
+            currentShape = nextShape;
+            currentShape.GetComponent<CubeProjectile>().enabled = true;
+            nextShape = null;
         }
     }
-   
+    public float GetRainbowFrequency()
+    {
+        return rainbowFrequency;
+    }
     void SpawnNextCubeProjectile()
     {
-        if (nextCubeProjectile == null)
+        if (nextShape == null)
         {
-            GameObject cube = Instantiate(cubePrefab, spawnPosition.position, Quaternion.identity);
-            nextCubeProjectile = cube;
+            Debug.Log(" Spawn shape ");
+            int rand = Random.Range(0, shapesPrefab.Count);
+            GameObject shape = Instantiate(shapesPrefab[rand], spawnPosition.position, Quaternion.identity);
+            nextShape = shape;
+            if (nextShape.GetComponent<Cube>() != null)
+            {
+                if (shape.GetComponent<Cube>().shapeType == Cube.ShapeType.Triangle) shape.transform.eulerAngles = new Vector3(0, 45, 0);
+            }
+            if (nextShape.GetComponent<Cube>() != null) shape.name = shape.GetComponent<Cube>().shapeType.ToString();
         }
     }
 
