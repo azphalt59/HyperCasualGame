@@ -8,8 +8,7 @@ public class Cube : MonoBehaviour
     public float verticalForce = 10f;
     public float tumble = 5f;
     bool bumped = false;
-    bool hasBump = false;
-    bool canBump = false;
+    
     private Vector3 eatenCube;
 
     public enum ShapeType { Cube, Triangle, Prism};
@@ -21,11 +20,7 @@ public class Cube : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        //if (hasBump == false && canBump == true)
-        //    Bump();
-    }
+    
     public void Bump()
     {
         if (eatenCube.z > transform.position.z && bumped == false || rb.velocity.magnitude < 0.5f && bumped == false)
@@ -44,7 +39,7 @@ public class Cube : MonoBehaviour
     {
         Debug.Log("Eat a cube");
         eatenCube = eatenCubePos;
-        canBump = true;
+       
        
     }
     private void OnTriggerEnter(Collider other)
@@ -65,12 +60,5 @@ public class Cube : MonoBehaviour
             GameManager.Instance.GameOver();
         }
 
-    }
-    private void OnCollisionStay(Collision collision)
-    {
-        if(collision.gameObject.GetComponent<CubeType>()!= null)
-        {
-
-        }
     }
 }
