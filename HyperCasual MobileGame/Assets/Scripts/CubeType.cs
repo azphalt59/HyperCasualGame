@@ -14,7 +14,8 @@ public class CubeType : MonoBehaviour
         One, Two, Four, Eight, Sixteen, 
         ThirtyTwo, SixtyFour, OneHundredTwentyEight,
         TwoHundredFiftySix, FiveHundredTwelve, OneThousandTwentyFour,
-        Rainbow
+        Rainbow,
+        ExplosionShape
     }
     public TypeOfCube typeOfCube;
 
@@ -23,7 +24,15 @@ public class CubeType : MonoBehaviour
         gameManager = GameManager.Instance;
         RandomCubeType();
         int rand = Random.Range(0, 101);
-        if (rand < gameManager.GetRainbowFrequency()) typeOfCube = TypeOfCube.Rainbow;
+        if (rand < gameManager.GetRainbowFrequency())
+        {
+            typeOfCube = TypeOfCube.Rainbow;
+        }
+        if(rand < gameManager.GetExplosionFrequency())
+        {
+            if (typeOfCube != TypeOfCube.Rainbow)
+                typeOfCube = TypeOfCube.ExplosionShape;
+        }
         switch (typeOfCube)
         {
             case TypeOfCube.One:
@@ -81,12 +90,18 @@ public class CubeType : MonoBehaviour
                 cubeValue = 1024;
                 levelIndex = 10;
                 break;
+            case TypeOfCube.ExplosionShape:
+                gameObject.name += " Explosion";
+                cubeRenderer.material = SpecialTypeManager.Instance.GetExploMaterial();
+                cubeValue = 0f;
+                break;
             case TypeOfCube.Rainbow:
                 gameObject.name += " Rainbow";
-                cubeRenderer.material = gameManager.ShapeColor[gameManager.ShapeColor.Count-1];
+                cubeRenderer.material = SpecialTypeManager.Instance.GetRainbowMaterial();
                 cubeValue = 0;
                 //levelIndex = 15;
                 break;
+           
         }
     }
     private void Update()
@@ -114,6 +129,7 @@ public class CubeType : MonoBehaviour
         cubeValue = Mathf.Pow(2, levelIndex);
         ScoreManager.Instance.AddScore((int)cubeValue);
         cubeRenderer.material = gameManager.ShapeColor[levelIndex];
+        GetComponent<Rigidbody>().mass -= GameManager.Instance.MassOnLevelUp;
         GetComponent<Cube>().Bump();
     }
     public void RandomCubeType()

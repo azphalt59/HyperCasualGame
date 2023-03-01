@@ -14,7 +14,6 @@ public class CubeProjectile : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        
     }
 
     // Update is called once per frame
@@ -36,7 +35,8 @@ public class CubeProjectile : MonoBehaviour
         {
             if(rb.velocity.magnitude == 0)
             {
-                GameManager.Instance.currentShape = null;
+                if(GetComponent<ExplosionBall>() == null)
+                    GameManager.Instance.currentShape = null;
                 Destroy(this);
             }
         }
@@ -44,6 +44,17 @@ public class CubeProjectile : MonoBehaviour
 
     public void ThrowCube()
     {
+        foreach (Collider item in gameObject.GetComponents<Collider>())
+        {
+            item.enabled = true;
+        }
+        if(GetComponent<CubeType>() != null)
+        {
+            if(GetComponent<CubeType>().typeOfCube == CubeType.TypeOfCube.ExplosionShape)
+            {
+                gameObject.AddComponent<ExplosionBall>();
+            }
+        }
         rb.AddForce(Vector3.forward * force, ForceMode.Impulse);
         isThrow = true;
     }

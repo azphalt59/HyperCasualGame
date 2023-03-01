@@ -1,19 +1,38 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
-    public List<Material> ShapeColor;
+    
 
+    [Header("Special shapes frequencies")]
     [SerializeField] private float rainbowFrequency = 0;
+    [SerializeField] private float explosionFrequency = 0;
+
+    [Header("Shapes settings")]
+    public List<Material> ShapeColor;
     [SerializeField] private List<GameObject> shapesPrefab;
-    [SerializeField] public GameObject currentShape;
-    [SerializeField] public GameObject nextShape;
+    public float MassOnLevelUp = 0.1f;
+
+    [Header("Shapes spawn")]
+    [SerializeField] private float respawnDelay = 0.5f;
+    private float spawnerTimer = 0f;
     [SerializeField] private Transform spawnPosition;
     [SerializeField] private Transform boardSpawnPosition;
-    
+
+    [SerializeField] public GameObject currentShape;
+    [SerializeField] public GameObject nextShape;
+
+    public GameObject empty;
+
+    [Header("Bounce Settings")]
+    public float VerticalForce = 1f;
+    public float HorizontalForce = 1f;
+    public float Tumble = 5f;
+
 
 
     private void Awake()
@@ -27,29 +46,24 @@ public class GameManager : MonoBehaviour
     }
     void Update()
     {
+        SpawnShape();
+    }
+
+
+
+
+    void SpawnShape()
+    {
         if (nextShape == null)
         {
-            SpawnNextCubeProjectile();
+            SpawnNextShapeProjectile();
         }
         if (currentShape == null)
         {
-            Debug.Log(" Move shape ");
-            nextShape.transform.position = boardSpawnPosition.position;
-            if(nextShape.GetComponent<Cube>() != null)
-            {
-                if (nextShape.GetComponent<Cube>().shapeType == Cube.ShapeType.Prism) nextShape.transform.position -= new Vector3(0, 0, nextShape.transform.localScale.z * 0.75f);
-            }
-         
-            currentShape = nextShape;
-            currentShape.GetComponent<CubeProjectile>().enabled = true;
-            nextShape = null;
+            MoveCurrentShapeOnBoard();
         }
     }
-    public float GetRainbowFrequency()
-    {
-        return rainbowFrequency;
-    }
-    void SpawnNextCubeProjectile()
+    void SpawnNextShapeProjectile()
     {
         if (nextShape == null)
         {
@@ -65,9 +79,35 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    void MoveCurrentShapeOnBoard()
+    {
+        spawnerTimer += Time.deltaTime;
+        if (spawnerTimer >= respawnDelay)
+        {
+            Debug.Log(" Move shape ");
+            nextShape.transform.position = boardSpawnPosition.position;
+            if (nextShape.GetComponent<Cube>() != null)
+            {
+                if (nextShape.GetComponent<Cube>().shapeType == Cube.ShapeType.Prism) nextShape.transform.position -= new Vector3(0, 0, nextShape.transform.localScale.z * 0.75f);
+            }
 
+            currentShape = nextShape;
+            currentShape.GetComponent<CubeProjectile>().enabled = true;
+            nextShape = null;
+            spawnerTimer = 0f;
+        }
+    }
     public void GameOver()
     {
         Debug.Log("Game Over");
+    }
+
+    public float GetRainbowFrequency()
+    {
+        return rainbowFrequency;
+    }
+    public float GetExplosionFrequency()
+    {
+        return explosionFrequency;
     }
 }

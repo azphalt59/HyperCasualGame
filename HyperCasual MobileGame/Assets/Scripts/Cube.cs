@@ -23,21 +23,23 @@ public class Cube : MonoBehaviour
     
     public void Bump()
     {
-        if (eatenCube.z > transform.position.z && bumped == false || rb.velocity.magnitude < 0.5f && bumped == false)
-        {
-           
-        }
-        Debug.Log("Bumped cube");
+        //if(bumped)
+        //{
+        //    Debug.Log("Déjà bump");
+        //    return;
+        //}
+
         bumped = true;
         rb.velocity = Vector3.zero;
-        rb.AddForce(Vector3.forward * 0.25f, ForceMode.Impulse);
-        rb.AddForce(Vector3.up * verticalForce, ForceMode.Impulse);
-        rb.angularVelocity = Random.insideUnitSphere * tumble;
+        rb.AddForce(Vector3.forward * GameManager.Instance.HorizontalForce, ForceMode.Impulse);
+        rb.AddForce(Vector3.up * GameManager.Instance.VerticalForce, ForceMode.Impulse);
+        rb.angularVelocity = Random.insideUnitSphere * GameManager.Instance.Tumble;
+        
     }
        
     public void EatCube(Vector3 eatenCubePos)
     {
-        Debug.Log("Eat a cube");
+        //Debug.Log("Eat a cube");
         eatenCube = eatenCubePos;
        
        
