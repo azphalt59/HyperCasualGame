@@ -86,7 +86,7 @@ public class CubeProjectile : MonoBehaviour
         }
         if(GetComponent<CubeType>() != null)
         {
-            if(GetComponent<CubeType>().typeOfCube == CubeType.TypeOfCube.ExplosionShape)
+            if(GetComponent<CubeType>().typeOfCube == CubeType.TypeOfCube.BlackCube)
             {
                 gameObject.AddComponent<ExplosionBall>();
             }

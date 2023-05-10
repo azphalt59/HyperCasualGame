@@ -23,6 +23,6 @@ public class Ground : MonoBehaviour
     public void AddComp()
     {
         gameObject.AddComponent<Rigidbody>();
-        GameManager.Instance.OnLose(transform.position);
+        GameManager.Instance.OnLose(transform.position, 20);
     }
 }

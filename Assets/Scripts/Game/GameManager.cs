@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
 
     [Header("Special shapes frequencies")]
     [SerializeField] private float rainbowFrequency = 0;
-    [SerializeField] private float explosionFrequency = 0;
+    [SerializeField] private float blackCubeFrequency = 0;
 
     [Header("Shapes settings")]
     public List<Material> ShapeColor;
@@ -248,14 +248,25 @@ public class GameManager : MonoBehaviour
         vfx.GetComponent<ParticleSystem>().Play();
         Destroy(vfx, 3f);
     }
+    public void OnLose(Vector3 pos, int chance)
+    {
+        int rand2 = Random.Range(0, 101);
+        if (rand2 > chance)
+            return;
+        int rand = Random.Range(0, LoseVfx.Count);
+        GameObject vfx = Instantiate(LoseVfx[rand], pos, Quaternion.identity);
+        PlaySound(explosion);
+        vfx.GetComponent<ParticleSystem>().Play();
+        Destroy(vfx, 3f);
+    }
 
     public float GetRainbowFrequency()
     {
         return rainbowFrequency;
     }
-    public float GetExplosionFrequency()
+    public float GetBlackCubeFrequency()
     {
-        return explosionFrequency;
+        return blackCubeFrequency;
     }
     public float GetShapeSpeed()
     {

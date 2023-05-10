@@ -15,7 +15,7 @@ public class CubeType : MonoBehaviour
         ThirtyTwo, SixtyFour, OneHundredTwentyEight,
         TwoHundredFiftySix, FiveHundredTwelve, OneThousandTwentyFour,
         Rainbow,
-        ExplosionShape
+        BlackCube
     }
     public TypeOfCube typeOfCube;
 
@@ -37,10 +37,10 @@ public class CubeType : MonoBehaviour
         {
             typeOfCube = TypeOfCube.Rainbow;
         }
-        if(rand < gameManager.GetExplosionFrequency())
+        if(rand < gameManager.GetBlackCubeFrequency())
         {
             if (typeOfCube != TypeOfCube.Rainbow)
-                typeOfCube = TypeOfCube.ExplosionShape;
+                typeOfCube = TypeOfCube.BlackCube;
         }
         switch (typeOfCube)
         {
@@ -99,8 +99,8 @@ public class CubeType : MonoBehaviour
                 cubeValue = 1024;
                 levelIndex = 10;
                 break;
-            case TypeOfCube.ExplosionShape:
-                gameObject.name += " Explosion";
+            case TypeOfCube.BlackCube:
+                gameObject.name += " Black";
                 cubeRenderer.material = SpecialTypeManager.Instance.GetExploMaterial();
                 cubeValue = 0f;
                 break;

@@ -46,7 +46,7 @@ public class WallManager : MonoBehaviour
         foreach (Ground ground in Grounds)
         {
             int rand = Random.Range(0, 101);
-            if (rand < 40)
+            if (rand > 85)
             {
                 ground.gameObject.GetComponent<MeshRenderer>().material = GroundsDamaged[damageIndex];
                 GameManager.Instance.OnLose(ground.gameObject.transform.position);

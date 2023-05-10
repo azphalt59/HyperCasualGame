@@ -60,8 +60,13 @@ public class WinCondition : MonoBehaviour
     }
     public void ContinueLevel()
     {
+        
         int currScene = SceneManager.GetActiveScene().buildIndex;
-        if(currScene+1 > SceneManager.sceneCountInBuildSettings)
-        SceneManager.LoadScene(currScene + 1);
+       
+        if (currScene+1 < SceneManager.sceneCountInBuildSettings)
+        {
+            SceneManager.LoadScene(currScene + 1);
+        }
+        
     }
 }

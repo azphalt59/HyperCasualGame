@@ -69,6 +69,21 @@ public class Cube : MonoBehaviour
 
         if (other.gameObject.GetComponent<CubeType>() != null)
         {
+            if(other.gameObject.GetComponent<CubeType>().typeOfCube == CubeType.TypeOfCube.BlackCube)
+            {
+                    GameManager.Instance.OnDeathCube(gameObject.transform.position);
+                    Destroy(other.gameObject);
+                    Destroy(gameObject);
+                    return;
+            }
+            if (gameObject.GetComponent<CubeType>().typeOfCube == CubeType.TypeOfCube.BlackCube)
+            {
+                GameManager.Instance.OnDeathCube(other.gameObject.transform.position);
+                Destroy(other.gameObject);
+                Destroy(gameObject);
+                return;
+            }
+
             if (other.gameObject.GetComponent<CubeType>().GetCubeValue() == gameObject.GetComponent<CubeType>().GetCubeValue() || gameObject.GetComponent<CubeType>().typeOfCube == CubeType.TypeOfCube.Rainbow)
             {
                 GameObject cubeThrew;
