@@ -1,0 +1,2083 @@
+fileFormatVersion: 2
+guid: dec456f16f6f9c449a894aaa81ac4039
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6182265786729742123
+    second: BlueBoxButton
+  - first:
+      213: 5724785279714150931
+    second: RedBoxButton
+  - first:
+      213: -4579713578635165176
+    second: GreenBoxButton
+  - first:
+      213: -8392136816852955147
+    second: YellowBoxButton
+  - first:
+      213: -858780325263690499
+    second: DarkGrayBoxButton
+  - first:
+      213: -8758393425355316371
+    second: MidGrayBoxButton
+  - first:
+      213: -6810822609143468252
+    second: LightGrayBoxButton
+  - first:
+      213: -2827359231976618315
+    second: PressGrayBoxButton
+  - first:
+      213: -9008588575346731091
+    second: LargeWhiteWindow
+  - first:
+      213: -2703065732275434063
+    second: SmallWhiteWindow
+  - first:
+      213: -7675559317361372983
+    second: BackBoxButton
+  - first:
+      213: 2911725351591609173
+    second: CloseBoxButton
+  - first:
+      213: -8921439409304123556
+    second: ConfirmBoxButton
+  - first:
+      213: -3241004297460713425
+    second: PlusBoxButton
+  - first:
+      213: -4525604132394342374
+    second: PressCloseBoxButton
+  - first:
+      213: -3570289234991158346
+    second: PressBackBoxButton
+  - first:
+      213: -2320044478463853909
+    second: PressConfirmBoxButton
+  - first:
+      213: -8143656769930754265
+    second: PressPlusBoxButton
+  - first:
+      213: -2638941836368899885
+    second: ClaimButton
+  - first:
+      213: -5464082464229241852
+    second: PressClaimButton
+  - first:
+      213: -6526623269165191109
+    second: TryAgainButton
+  - first:
+      213: -5736781194054237433
+    second: ArrowButton
+  - first:
+      213: -7770171225237334322
+    second: PressArrowButton
+  - first:
+      213: 4613655117386820718
+    second: PressTryAgainButton
+  - first:
+      213: 6238597764028460748
+    second: PlayHexagonButton
+  - first:
+      213: 767483149862840694
+    second: PressPlayHexagonButton
+  - first:
+      213: -6293507359520199648
+    second: BackHexagonButton
+  - first:
+      213: 7053874507642351485
+    second: PressBackHexagonButton
+  - first:
+      213: -3943400335024958898
+    second: GrayscaleHexagon
+  - first:
+      213: 3552020413853392724
+    second: PressGrayscaleHexagon
+  - first:
+      213: -6915520134466042131
+    second: Present
+  - first:
+      213: 7034802802832357736
+    second: LargeGrayWindow
+  - first:
+      213: 8001386198064572609
+    second: NextHexagonButton
+  - first:
+      213: 566554846229568585
+    second: PressNextHexagonButton
+  - first:
+      213: 5060092376527561509
+    second: ExitHexagonButton
+  - first:
+      213: -1222716943149562353
+    second: PressExitHexagonButton
+  - first:
+      213: 5190708378874278637
+    second: OpenPresent
+  - first:
+      213: -5774340387149271881
+    second: Star
+  - first:
+      213: 4785277058078290756
+    second: GrayscaleStar
+  - first:
+      213: 7116904814732628707
+    second: SpecialStar
+  - first:
+      213: -6841866091990464679
+    second: GoldenCoin
+  - first:
+      213: 691890168566461749
+    second: SilverCoin
+  - first:
+      213: 7001033576697156634
+    second: CopperCoin
+  - first:
+      213: 3123267003214782548
+    second: PurpleDiamond
+  - first:
+      213: -7059044752857061412
+    second: GreenDiamond
+  - first:
+      213: 2880291717575793893
+    second: BlueDiamond
+  - first:
+      213: -8851650253470273836
+    second: SettingsIcon
+  - first:
+      213: 65857763374494751
+    second: PlayIcon
+  - first:
+      213: -6434621144060638484
+    second: NextIcon
+  - first:
+      213: -1271065756330047067
+    second: ExitIcon
+  - first:
+      213: 2865148905941941160
+    second: BackIcon
+  - first:
+      213: -6965695750223979544
+    second: ConfirmIcon
+  - first:
+      213: 7740764261778680115
+    second: YellowEnergy
+  - first:
+      213: -4420894684257030527
+    second: GreenEnergy
+  - first:
+      213: 638353017532628139
+    second: RedEnergy
+  - first:
+      213: -5336784235910029598
+    second: GrayscaleEnergy
+  - first:
+      213: -2605078630741160527
+    second: GrayscaleDiamond
+  - first:
+      213: -1779464922345243148
+    second: PlusIcon
+  - first:
+      213: -2657937873053599367
+    second: CrossIcon
+  - first:
+      213: -3228706923237300455
+    second: MinusIcon
+  - first:
+      213: -2463851556333776013
+    second: StopIcon
+  - first:
+      213: 1631618939991611966
+    second: StarIcon
+  - first:
+      213: -3276663459775795672
+    second: ShareIcon
+  - first:
+      213: -4759610779902347814
+    second: SmallGrayWindow
+  - first:
+      213: -7776341416550042811
+    second: FewDiamonds
+  - first:
+      213: -6424470037206428815
+    second: FewCoins
+  - first:
+      213: 6677326981217408920
+    second: HeartIcon
+  - first:
+      213: -8842215012139089593
+    second: DownloadIcon
+  - first:
+      213: -7262777384513795355
+    second: OnOffIcon
+  - first:
+      213: 4166438099457242043
+    second: MusicIcon
+  - first:
+      213: 2953412115787573934
+    second: NoMusicIcon
+  - first:
+      213: 7959809329750187791
+    second: BaseIcon
+  - first:
+      213: -2029704449116712631
+    second: SliderBase
+  - first:
+      213: -8935966803775584929
+    second: Off
+  - first:
+      213: -3196638824439172972
+    second: On
+  - first:
+      213: 2252606533504801036
+    second: SliderFill
+  - first:
+      213: 8632208876144726271
+    second: SliderGrayscaleFill
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 2
+    wrapV: 2
+    wrapW: 2
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueBoxButton
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2773
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d04ce2a50e243aa0800000000000000
+      internalID: -6182265786729742123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedBoxButton
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 2773
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a4fb471e5827f40800000000000000
+      internalID: 5724785279714150931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoxButton
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 2773
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8020b6cb3c69170c0800000000000000
+      internalID: -4579713578635165176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBoxButton
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 2773
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff800d4704298b80800000000000000
+      internalID: -8392136816852955147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkGrayBoxButton
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 2773
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4309c18dff414f0800000000000000
+      internalID: -858780325263690499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MidGrayBoxButton
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 2773
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d636496659fe37680800000000000000
+      internalID: -8758393425355316371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightGrayBoxButton
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 2773
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fedc91ce81b71a0800000000000000
+      internalID: -6810822609143468252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PressGrayBoxButton
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 2773
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 24, y: 24, z: 24, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6cc9d22c333c8d0800000000000000
+      internalID: -2827359231976618315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LargeWhiteWindow
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 1164
+        width: 979
+        height: 1785
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 77, y: 77, z: 77, w: 77}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7d0d69b601bf280800000000000000
+      internalID: -9008588575346731091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallWhiteWindow
+      rect:
+        serializedVersion: 2
+        x: 3019
+        y: 1961
+        width: 979
+        height: 988
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 77, y: 77, z: 77, w: 77}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd0137b908cc7ad0800000000000000
+      internalID: -2703065732275434063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackBoxButton
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2527
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c05c3cb77fea7590800000000000000
+      internalID: -7675559317361372983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloseBoxButton
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 2527
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5530e11c7c6886820800000000000000
+      internalID: 2911725351591609173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConfirmBoxButton
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 2527
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57c143002ea03480800000000000000
+      internalID: -8921439409304123556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlusBoxButton
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 2527
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28f65653c3a503d0800000000000000
+      internalID: -3241004297460713425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PressCloseBoxButton
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 2527
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18689ee403d131c0800000000000000
+      internalID: -4525604132394342374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PressBackBoxButton
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 2527
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb63f26bd8c37ec0800000000000000
+      internalID: -3570289234991158346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PressConfirmBoxButton
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 2527
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa3e06c6db8dcfd0800000000000000
+      internalID: -2320044478463853909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PressPlusBoxButton
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 2527
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727829f805bebfe80800000000000000
+      internalID: -8143656769930754265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClaimButton
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2236
+        width: 618
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0905ca168906bd0800000000000000
+      internalID: -2638941836368899885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PressClaimButton
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 2239
+        width: 614
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ccc20e2fdab24b0800000000000000
+      internalID: -5464082464229241852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TryAgainButton
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 2311
+        width: 417
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b303c9a57b6cc65a0800000000000000
+      internalID: -6526623269165191109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArrowButton
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1980
+        width: 618
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 29, y: 108, z: 29, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703814616ebd260b0800000000000000
+      internalID: -5736781194054237433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PressArrowButton
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1980
+        width: 618
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 29, y: 108, z: 29, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec654c3507eca2490800000000000000
+      internalID: -7770171225237334322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PressTryAgainButton
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 2130
+        width: 417
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c210492eef60040800000000000000
+      internalID: 4613655117386820718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayHexagonButton
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1749
+        width: 161
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce6675ec93f39650800000000000000
+      internalID: 6238597764028460748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PressPlayHexagonButton
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1749
+        width: 161
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6792ca6cbd5a6aa00800000000000000
+      internalID: 767483149862840694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackHexagonButton
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1751
+        width: 161
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ced74a668f8a8a0800000000000000
+      internalID: -6293507359520199648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PressBackHexagonButton
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1751
+        width: 161
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fa43edd7564e160800000000000000
+      internalID: 7053874507642351485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleHexagon
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1749
+        width: 161
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e425eafc94a3649c0800000000000000
+      internalID: -3943400335024958898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PressGrayscaleHexagon
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 1749
+        width: 161
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fdaaa3fbf4b4130800000000000000
+      internalID: 3552020413853392724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Present
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 1709
+        width: 386
+        height: 365
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de60714e3132700a0800000000000000
+      internalID: -6915520134466042131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LargeGrayWindow
+      rect:
+        serializedVersion: 2
+        x: 3019
+        y: 88
+        width: 979
+        height: 1785
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 77, y: 77, z: 77, w: 77}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869bebf80e3a0a160800000000000000
+      internalID: 7034802802832357736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NextHexagonButton
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1529
+        width: 161
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c82a5e9a52aa0f60800000000000000
+      internalID: 8001386198064572609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PressNextHexagonButton
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1529
+        width: 161
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c1a4381aeccd700800000000000000
+      internalID: 566554846229568585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExitHexagonButton
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1529
+        width: 161
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5236699f43f093640800000000000000
+      internalID: 5060092376527561509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PressExitHexagonButton
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1529
+        width: 161
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0608be1b69080fe0800000000000000
+      internalID: -1222716943149562353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenPresent
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 1308
+        width: 528
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2f17fd4c9190840800000000000000
+      internalID: 5190708378874278637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1318
+        width: 168
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bca6cbf20c6ddfa0800000000000000
+      internalID: -5774340387149271881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleStar
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1318
+        width: 168
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443359e7128b86240800000000000000
+      internalID: 4785277058078290756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialStar
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1317
+        width: 170
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2d766d83354c260800000000000000
+      internalID: 7116904814732628707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldenCoin
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1135
+        width: 97
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9574e120a0fcc01a0800000000000000
+      internalID: -6841866091990464679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SilverCoin
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1135
+        width: 98
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5353df841761a9900800000000000000
+      internalID: 691890168566461749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CopperCoin
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1136
+        width: 97
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14dd97e1faa82160800000000000000
+      internalID: 7001033576697156634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleDiamond
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1140
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450e059aac2185b20800000000000000
+      internalID: 3123267003214782548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenDiamond
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1139
+        width: 111
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7ae5c923c390e90800000000000000
+      internalID: -7059044752857061412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueDiamond
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1136
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ecda938e0ad8f720800000000000000
+      internalID: 2880291717575793893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SettingsIcon
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 1148
+        width: 134
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de68e51efe982580800000000000000
+      internalID: -8851650253470273836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayIcon
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1168
+        width: 74
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1473af6949f9e000800000000000000
+      internalID: 65857763374494751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NextIcon
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1168
+        width: 103
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea4c0c5922a3b6a0800000000000000
+      internalID: -6434621144060638484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExitIcon
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1164
+        width: 95
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9c8c3dd644c5ee0800000000000000
+      internalID: -1271065756330047067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackIcon
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1156
+        width: 98
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abb44fefbd03c720800000000000000
+      internalID: 2865148905941941160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConfirmIcon
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 1156
+        width: 116
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb937afe90e45f90800000000000000
+      internalID: -6965695750223979544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowEnergy
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 998
+        width: 74
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3396b517518bc6b60800000000000000
+      internalID: 7740764261778680115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenEnergy
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 998
+        width: 74
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e627325b3d5a2c0800000000000000
+      internalID: -4420894684257030527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedEnergy
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 998
+        width: 74
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bacb453ffa2ebd800800000000000000
+      internalID: 638353017532628139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleEnergy
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 998
+        width: 74
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee9daf430fefe5b0800000000000000
+      internalID: -5336784235910029598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleDiamond
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1004
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd46b2a9c6e8dbd0800000000000000
+      internalID: -2605078630741160527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlusIcon
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1016
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdf755c4121e47e0800000000000000
+      internalID: -1779464922345243148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossIcon
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1019
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9793599369b1d1bd0800000000000000
+      internalID: -2657937873053599367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinusIcon
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1049
+        width: 81
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917a894e8245133d0800000000000000
+      internalID: -3228706923237300455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StopIcon
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1026
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3739e654014aecdd0800000000000000
+      internalID: -2463851556333776013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarIcon
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 1020
+        width: 105
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3adffef7cca4a610800000000000000
+      internalID: 1631618939991611966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShareIcon
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1016
+        width: 80
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82eaf8f91f3f682d0800000000000000
+      internalID: -3276663459775795672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallGrayWindow
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 88
+        width: 979
+        height: 988
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 77, y: 77, z: 77, w: 77}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5fcc2963772fdb0800000000000000
+      internalID: -4759610779902347814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FewDiamonds
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 833
+        width: 214
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5437066bea2e41490800000000000000
+      internalID: -7776341416550042811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FewCoins
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 826
+        width: 163
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1739b2a1a82b7d6a0800000000000000
+      internalID: -6424470037206428815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartIcon
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 890
+        width: 104
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897589ce281aaac50800000000000000
+      internalID: 6677326981217408920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownloadIcon
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 892
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741c2d56b442a4580800000000000000
+      internalID: -8842215012139089593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnOffIcon
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 888
+        width: 93
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea8059d27e653b90800000000000000
+      internalID: -7262777384513795355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MusicIcon
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 891
+        width: 80
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb37dc0706922d930800000000000000
+      internalID: 4166438099457242043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoMusicIcon
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 887
+        width: 85
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa6ad4eba0acf820800000000000000
+      internalID: 2953412115787573934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseIcon
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 813
+        width: 155
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 22, y: 22, z: 22, w: 22}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f999b996ce67e60800000000000000
+      internalID: 7959809329750187791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SliderBase
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 690
+        width: 1055
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 30, y: 28, z: 30, w: 28}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9415e5fae8a05d3e0800000000000000
+      internalID: -2029704449116712631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Off
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 730
+        width: 155
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55064869811df380800000000000000
+      internalID: -8935966803775584929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: On
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 730
+        width: 155
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490b41afce143a3d0800000000000000
+      internalID: -3196638824439172972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SliderFill
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 591
+        width: 1023
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 22, y: 17, z: 22, w: 17}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09174815bdd24f10800000000000000
+      internalID: 2252606533504801036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SliderGrayscaleFill
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 475
+        width: 1023
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 22, y: 17, z: 22, w: 17}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff09499cc34cbc770800000000000000
+      internalID: 8632208876144726271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: cb03d49f589daaa4e8c6bb98840e212c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PressGrayBoxButton: -2827359231976618315
+      StarIcon: 1631618939991611966
+      Off: -8935966803775584929
+      PressArrowButton: -7770171225237334322
+      ArrowButton: -5736781194054237433
+      SettingsIcon: -8851650253470273836
+      PlayIcon: 65857763374494751
+      YellowBoxButton: -8392136816852955147
+      ConfirmBoxButton: -8921439409304123556
+      MidGrayBoxButton: -8758393425355316371
+      NextHexagonButton: 8001386198064572609
+      SilverCoin: 691890168566461749
+      PressExitHexagonButton: -1222716943149562353
+      StopIcon: -2463851556333776013
+      BlueBoxButton: -6182265786729742123
+      SliderBase: -2029704449116712631
+      GreenEnergy: -4420894684257030527
+      BaseIcon: 7959809329750187791
+      RedBoxButton: 5724785279714150931
+      Present: -6915520134466042131
+      LargeWhiteWindow: -9008588575346731091
+      GreenBoxButton: -4579713578635165176
+      CloseBoxButton: 2911725351591609173
+      PlayHexagonButton: 6238597764028460748
+      BackHexagonButton: -6293507359520199648
+      ShareIcon: -3276663459775795672
+      GrayscaleDiamond: -2605078630741160527
+      PurpleDiamond: 3123267003214782548
+      PressConfirmBoxButton: -2320044478463853909
+      TryAgainButton: -6526623269165191109
+      Star: -5774340387149271881
+      OnOffIcon: -7262777384513795355
+      PressGrayscaleHexagon: 3552020413853392724
+      DownloadIcon: -8842215012139089593
+      BackBoxButton: -7675559317361372983
+      RedEnergy: 638353017532628139
+      ExitHexagonButton: 5060092376527561509
+      BlueDiamond: 2880291717575793893
+      PressNextHexagonButton: 566554846229568585
+      PlusBoxButton: -3241004297460713425
+      CopperCoin: 7001033576697156634
+      On: -3196638824439172972
+      SpecialStar: 7116904814732628707
+      GoldenCoin: -6841866091990464679
+      GreenDiamond: -7059044752857061412
+      OpenPresent: 5190708378874278637
+      PlusIcon: -1779464922345243148
+      BackIcon: 2865148905941941160
+      PressPlusBoxButton: -8143656769930754265
+      MusicIcon: 4166438099457242043
+      SliderFill: 2252606533504801036
+      NextIcon: -6434621144060638484
+      PressTryAgainButton: 4613655117386820718
+      SmallWhiteWindow: -2703065732275434063
+      GrayscaleHexagon: -3943400335024958898
+      ConfirmIcon: -6965695750223979544
+      ClaimButton: -2638941836368899885
+      HeartIcon: 6677326981217408920
+      GrayscaleEnergy: -5336784235910029598
+      MinusIcon: -3228706923237300455
+      PressPlayHexagonButton: 767483149862840694
+      GrayscaleStar: 4785277058078290756
+      NoMusicIcon: 2953412115787573934
+      PressBackBoxButton: -3570289234991158346
+      DarkGrayBoxButton: -858780325263690499
+      PressBackHexagonButton: 7053874507642351485
+      FewDiamonds: -7776341416550042811
+      FewCoins: -6424470037206428815
+      LargeGrayWindow: 7034802802832357736
+      SliderGrayscaleFill: 8632208876144726271
+      PressClaimButton: -5464082464229241852
+      ExitIcon: -1271065756330047067
+      SmallGrayWindow: -4759610779902347814
+      YellowEnergy: 7740764261778680115
+      CrossIcon: -2657937873053599367
+      LightGrayBoxButton: -6810822609143468252
+      PressCloseBoxButton: -4525604132394342374
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
